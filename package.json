@@ -1,0 +1,22 @@
+{
+  "name": "suman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd backend && node index.js",
+    "client": "cd frontend && npm run dev",
+    "development": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysqli": "^3.1.4",
+    "node": "^18.20.3"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
